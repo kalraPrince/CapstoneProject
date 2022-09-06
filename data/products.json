@@ -1,0 +1,236 @@
+{
+    "products": [
+    {
+        "id": 1,
+        "title": "Clara Swing",
+        "description": "Carry Bird believes in creating an enthusiastic space, allowing you to enjoy, relax and spend time with your loved ones outdoors.These Wicker products are built to stay safe from the harsh rays of sunlight and other weather conditions. They need less maintenance as compared to other types of furniture",
+        "price": 17000,
+        "discountPercentage": 12.96,
+        "rating": 4.69,
+        "stock": 94,
+        "images": "https://ii2.pepperfry.com/media/catalog/product/c/l/800x880/clara-swing-in-brown-and-red-colour-by-carry-bird-clara-swing-in-brown-and-red-colour-by-carry-bird-jwsxog.jpg"
+    },
+    {
+        "id": 2,
+        "title": "Grey Ceramic Big Rectangular Bonzai Shape Desk Pot",
+        "description": "High temperature fired ceramic. Handmade item, glazed to give it shiny look. Top quality clay gives this item more durability, longevity & smooth finish. Suitable for Indian climate & conditions. ",
+        "price": 899,
+        "discountPercentage": 17.94,
+        "rating": 4.44,
+        "stock": 34,
+        "images": "https://ii2.pepperfry.com/media/catalog/product/g/r/800x880/grey-ceramic-big-rectangular-bonzai-shape-desk-pot-by-justoriginals-grey-ceramic-big-rectangular-bon-hsprse.jpg"
+    },
+    {
+        "id": 3,
+        "title": "Bean Bag Cover",
+        "description": "VSK is known for their quality bean bags. We have a wide range of colourful bean bags that are incredibly versatile and can add a touch of classic fashion to your interiors. ",
+        "price": 1249,
+        "discountPercentage": 15.46,
+        "rating": 4.09,
+        "stock": 36,
+        "images": "https://ii3.pepperfry.com/media/catalog/product/x/x/800x880/xxxl-bean-bag-cover-in-blue-colour-by-vsk-xxxl-bean-bag-cover-in-blue-colour-by-vsk-lbcnyz.jpg"
+    },
+    {
+        "id": 4,
+        "title": "Nylon Floral 3 x 3 Feet Machine Made Carpet",
+        "description": "A guaranteed transformation to your rooms decor, these geometric patterned carpets will enhance the beauty of any floor ranging from the living room to the house entrance. With a wide collection of beautifully designed geometric patterned carpets, choose your favourite one and enjoy the plush feeling beneath your feet. A one stop-shop for home decor and furniture, Pepperfry sells a home product every 30 seconds.",
+        "price": 348,
+        "discountPercentage": 17.91,
+        "rating": 4.3,
+        "stock": 123,
+        "images": 
+        "https://ii2.pepperfry.com/media/catalog/product/b/r/800x880/brown-floral-machine-made-nylon-carpet-2-5x2-5-feet-by-status-brown-floral-machine-made-nylon-carpet-ifegoy.jpg"
+    },
+    {
+        "id": 5,
+        "title": "Gold Tone Buffet Org Iron Appetizer Platter",
+        "description": "Conceptualized in a Dream & Visualized into Verity, NestRoots is a Dream House of Design, Aesthetics & Elegance.",
+        "price": 2605,
+        "discountPercentage": 10.58,
+        "rating": 4.09,
+        "stock": 32,
+        "images": "https://ii2.pepperfry.com/media/catalog/product/g/o/800x880/gold-tone-buffet-org-iron-appetizer-platter-by-nestroots-gold-tone-buffet-org-iron-appetizer-platter-i23x9q.jpg"
+    },
+    {
+    "id": 6,
+        "title": "C Shape Swing Chair with Hanging Kit",
+        "description": "Patiofy Premium C Shape Swing - Jhula with floral golden cushion for adults and kids: IT's TIME TO SIT BACK AND RELAX! Enjoy your downtime in comfort and style with the Patiofy Premium Hammock Macrame Swing Chair with Cushion.",
+        "price": 3537,
+        "discountPercentage": 11.02,
+        "rating": 4.57,
+        "stock": 83,
+        "images": "https://ii3.pepperfry.com/media/catalog/product/p/a/800x880/patiofy-premium-c-shape-swing-chair-with-hanging-kit--in-color-black--patiofy-premium-c-shape-swing--2icihu.jpg"
+    },
+    {
+        "id": 7,
+        "title": "Bryan & Candy Scented Candles Gift Set",
+        "description": "Bryan & Candy Scented Candles Gift Set for Women & Men ,Men And Women ,Cherry Blossom,Vintage Sandalwood,Neroli & Honeycomb,Lavender & Chamomile Aromatherapy Candles,100 gm each Soy Wax Tin Jar (Pack of 4)",
+        "price": 11499,
+        "discountPercentage": 4.15,
+        "rating": 4.25,
+        "stock": 50,
+        "images": "https://m.media-amazon.com/images/I/91XXBGlIIjL._SL1500_.jpg"
+    },
+    {
+        "id": 8,
+        "title": "Bird Cage Tea Light Holder ",
+        "description": "This Diwali Light Your home with this beautiful Bird Cage Tealight Holder. This stunning JaipurCrafts Tealight Holder makes for a perfect addition to your home.BENEFITS: They can accent your home or office for the right decor. Perfect for adding a decorative touch to any room's decor",
+        "price": 299,
+        "discountPercentage": 10.23,
+        "rating": 4.43,
+        "stock": 68,
+        "images": "https://m.media-amazon.com/images/I/71d5GOTCLkL._SL1100_.jpg"
+    },
+    {
+        "id": 9,
+        "title": "Set of 4 Owls Playing Musical Instruments Showpiece",
+        "description": "IMPRESSIVE ART WORK:Extraordinarily life-like set of 4 owls with stylish orchestra creation; so engaging, strikingly realistic and remarkably expressive",
+        "price": 599,
+        "discountPercentage": 11.83,
+        "rating": 4.54,
+        "stock": 96,
+        "images": "https://m.media-amazon.com/images/I/81f0JpsbnlL._SX679_.jpg"
+    },
+    {
+        "id": 10,
+        "title": "ANTIQ Creation Playing Cats ON Moon Miniature SHOWPIECE",
+        "description": "Miniature ornaments set, more imaginative and creative space for your own fairy garden and dollhouse. Hand painted and cast in quality resin, durable and waterproof to decorate your mini garden Suitable for miniature garden, mini landscaping, dollhouse and plant decoration",
+        "price": 199,
+        "discountPercentage": 6.18,
+        "rating": 4.43,
+        "stock": 89,
+        "images": "https://m.media-amazon.com/images/I/61SlbabtWRL._SL1080_.jpg"
+    },
+    {
+        "id": 11,
+        "title": "Cycle Shape Flower Vase",
+        "description": "This combo is a Tied Ribbons exclusive. Right from the raw material, the designing, to the printing of the final creation, the combo has been entirely handcrafted in India.",
+        "price": 499,
+        "discountPercentage": 8.4,
+        "rating": 4.26,
+        "stock": 65,
+        "images": "https://m.media-amazon.com/images/I/91jKRVXmaML._SX679_.jpg"
+    },
+    {
+        "id": 12,
+        "title": "6 Light Rope Chandelier",
+        "description": "Fos Lighting Beach House 6 Light Rope Chandelier (Brown & Black)",
+        "price": 7745,
+        "discountPercentage": 15.66,
+        "rating": 4,
+        "stock": 52,
+        "images": "https://m.media-amazon.com/images/I/61jX4VEf-8L._SY606_.jpg"
+    },
+    {
+        "id": 13,
+        "title": "Coffee & Tea & Dinning Table",
+        "description": "Coffee & Tea & Dinning Table Solid Wood (Sheesham) with a for Living Room & Bedroom",
+        "price": 2499,
+        "discountPercentage": 8.14,
+        "rating": 4.59,
+        "stock": 61,
+        "images": "https://m.media-amazon.com/images/I/31vLXtyYIVL.jpg"
+    },
+    {
+        "id": 14,
+        "title": "Happy Winter Trees Sticker",
+        "description": "Wall Stickers Wallpaper Happy Winter Trees and Frames Home DIY Self Adhesive Extra Large Self Adhesive Sticker  (Pack of 1)",
+        "price": 199,
+        "discountPercentage": 15.6,
+        "rating": 4.21,
+        "stock": 114,
+        "images": "https://rukminim1.flixcart.com/image/832/832/l2urv680/sticker/o/d/v/extra-large-wall-stickers-wallpaper-happy-winter-trees-and-original-imag6nf4zczjftyb.jpeg?q=70"
+    
+    },
+    {
+        "id": 15,
+        "title": "Decorative Multicolor Wallpaper",
+        "description": "Let your wall tell a story with our range of wallpapers.our versatility is showcased in our remarkable collection of exquisite wall . Colourful and decorative wallpaper.",
+        "price": 199,
+        "discountPercentage": 10.99,
+        "rating": 4.7,
+        "stock": 105,
+        "images": "https://rukminim1.flixcart.com/image/832/832/kf2v3ww0/wallpaper/m/6/h/500-304-0797112175114-wollzo-original-imafvmbb7ghgpvsx.jpeg?q=70"
+    },
+    {
+        "id": 16,
+        "title": "Artficial flower with pot",
+        "description": "Artificial Flowers with White Pot for Home Décor and Gifting pink , Green , Yellow and Red Orchids Artificial Flower with Pot (13 inch, Pack of 4)",
+        "price": 299,
+        "discountPercentage": 13.31,
+        "rating": 4.83,
+        "stock": 110,
+        "images": "https://rukminim1.flixcart.com/image/832/832/ku4ezrk0/artificial-flower/o/4/v/1-flr-010-octafashion-original-imag7bemmdhr8gga.jpeg?q=70"
+    },
+    {
+        "id": 17,
+        "title": " Multicolor Lotus Artificial Flower",
+        "description": "Artificial flowers are imitations of natural flowering plants used for commercial or residential decoration. ... Artificial plants vary widely from mass-produced varieties that are distinguishable from real plants by casual observation to highly detailed botanical or artistic specimens.",
+        "price": 450,
+        "discountPercentage": 4.09,
+        "rating": 4.52,
+        "stock": 78,
+        "images": "https://rukminim1.flixcart.com/image/832/832/ktvucnk0/artificial-flower/6/b/q/6-6flostf-blue-penguin-original-imag74uys55gktax.jpeg?q=70"
+    },
+    {
+        "id": 18,
+        "title": "Radha Krishna Large Set of 5 Digital Reprint",
+        "description": "Large set of Paintings Pasted on Thick MDF Board which is easy to install on wall, It’s a unique concept . Good quality painting for you",
+        "price": 289,
+        "discountPercentage": 13.1,
+        "rating": 4.56,
+        "stock": 88,
+        "images": "https://rukminim1.flixcart.com/image/832/832/kkmwr680/painting/y/x/r/42-sanfpnl31211-saf-original-imafzxvjzwepgfzc.jpeg?q=70"
+    },
+    {
+        "id": 19,
+        "title": "SET OF 3 HEXAGON UV COATED DIGITAL REPRINT PAINTING.",
+        "description": "Painting made up in Mdf frame with UV textured print which gives multi-effects and attracts towards it. This is an special series of paintings which makes your wall very beautiful and gives a royal touch. A perfect gift for your special ones.",
+        "price": 229,
+        "discountPercentage": 10.68,
+        "rating": 4.42,
+        "stock": 54,
+        "images": "https://rukminim1.flixcart.com/image/832/832/k7nnrm80/painting/5/g/7/sanfhx141-saf-print-original-imafpupwhkcdddhn.jpeg?q=70"
+    },
+    {
+        "id": 20,
+        "title": "Digital White Clock",
+        "description": "An Elegant and Useful Product for all House and Offices comes in Original box Packing with Amazing Features This MoodiCare Clock emits Soft Light in 7 Different Colors Soothing moods and creates a Romantic Atmosphere.The Glowing Clock Provides You With The Time, Day Of The Week, Date (Month/Day), Week And Temperature Along With Eight Alarm Songs.",
+        "price": 299,
+        "discountPercentage": 16.99,
+        "rating": 4.06,
+        "stock": 140,
+        "images": "https://rukminim1.flixcart.com/image/832/832/k6ci8i80/table-clock/a/6/x/7-color-changing-clock-vf015-vedaant-original-imafdbbsgnrugpgj.jpeg?q=70"
+    },
+    {
+        "id": 21,
+        "title": "Wall hanging Wall shelf With LED light Wooden Wall Shelf",
+        "description": "Is your wall feeling empty? Add a finishing touch to your rustic wall decor with these hanging wall shelves. Our wall hanging shelf is a perfect way to display your pictures, candles, plants and succulents, books, toiletries and other little decor accents and accessories! A versatile boho wall decor, use these hanging floating shelves wherever and however you want in your home; adding a warm and charming touch to your space.",
+        "price": 498,
+        "discountPercentage": 4.81,
+        "rating": 4.44,
+        "stock": 133,
+        "images": "https://rukminim1.flixcart.com/image/832/832/kmp7ngw0/rack-shelf/z/v/z/vahws105-vah-original-imagfjkrzeq9bn9v.jpeg?q=70"
+    },
+    {
+        "id": 22,
+        "title": "White Wall Shelves",
+        "description": "A decorative set of 4 shelves that is sure to add a touch of charm to your decor, this wall shelf set will spread its charm across your living space.",
+        "price": 14,
+        "discountPercentage": 15.58,
+        "rating": 4.57,
+        "stock": 1046,
+        "images": "https://rukminim1.flixcart.com/image/832/832/jw5a2kw0/rack-shelf/g/q/z/scfp-912-decorhand-original-imafgw3wcpdc8hng.jpeg?q=70"
+    },
+    {
+        "id": 23,
+        "title": "wooden wall shelf",
+        "description": "OnlineCraft wooden wall shelf Wooden Wall Shelf  (Number of Shelves - 6, Pink)",
+        "price": 512,
+        "discountPercentage": 8.04,
+        "rating": 4.85,
+        "stock": 26,
+        "images": "https://rukminim1.flixcart.com/image/832/832/kuu4x3k0/rack-shelf/m/x/n/living-room-bedroom-ch1175-onlinecraft-original-imag7v7nexezrv36.jpeg?q=70"
+    }
+    ]
+}
