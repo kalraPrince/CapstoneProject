@@ -2,7 +2,7 @@
 function App() {
   return (
     <div>
-     capstone Project Changed by prince
+     capstone project team 3
     </div>
   );
 }
