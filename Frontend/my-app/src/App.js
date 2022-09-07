@@ -1,8 +1,15 @@
-
+import Slider from "./Componenets/DashBoard/UserDash";
+import { Provider } from 'react-redux'
+import store from "./Componenets/DashBoard/Store/store";
+import UserProduct from "./Componenets/UserProduct";
 function App() {
   return (
     <div>
-     capstone project team 3
+      <Slider></Slider>
+      <Provider store={store}>
+        <UserProduct></UserProduct>
+    </Provider>
+     
     </div>
   );
 }
