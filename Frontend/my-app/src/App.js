@@ -1,8 +1,13 @@
+import Slider from "./Pages/UserDashBoard";
 
+import UserProduct from "./Pages/UserProduct";
 function App() {
   return (
     <div>
-     capstone Project Changed by amrutha
+      <Slider></Slider>
+     
+        <UserProduct></UserProduct>
+   
     </div>
   );
 }
