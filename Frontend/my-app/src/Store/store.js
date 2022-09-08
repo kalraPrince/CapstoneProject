@@ -1,9 +1,12 @@
-import { configureStore } from "@reduxjs/toolkit"
-import ProductReducer from './productSlice'
-import { ProductFetch } from "./productSlice"
+
+import { configureStore } from "@reduxjs/toolkit";
+// import slices we created
+
+import productReducer from "./ProductSlice"
+import { ProductFetch } from  "./ProductSlice"
 const store=configureStore({
     reducer:{
-        product:ProductReducer,
+           product:productReducer                
     }
 })
 

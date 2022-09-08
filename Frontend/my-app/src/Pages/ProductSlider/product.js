@@ -1,5 +1,5 @@
 import { useSelector } from "react-redux";
-import { getAllProduct } from "../../Store/productSlice";
+import { getAllProduct } from "../../Store/ProductSlice";
 import { Link } from "react-router-dom";
 import Slider from "react-slick";
 import ProductList from "./productList";
