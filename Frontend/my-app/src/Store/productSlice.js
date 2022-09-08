@@ -39,5 +39,5 @@ const productSlice=createSlice({
         }
     }
 })
-
+export const getAllProduct = (state) => state.product.items;
 export default productSlice.reducer
