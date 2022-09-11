@@ -1,5 +1,6 @@
 import '../Styles/UserProduct.css'
 import {useSelector } from "react-redux";
+import { Helmet } from 'react-helmet';
 
 function UserProduct(){
 
@@ -7,12 +8,13 @@ function UserProduct(){
     return(
 
         <div className="container">
+            <Helmet><title>Products</title></Helmet>
              <h2>Newly Arrived</h2>
             <div className="row">
             {
                 items.map((item)=>(
                     
-                    <div className="card">
+                    <div className="card userproduct-card">
                        
                         <img className="p-image" src={item.images} alt=""/>
                             <h5>{item.title}</h5>

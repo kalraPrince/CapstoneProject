@@ -1,0 +1,21 @@
+body{
+    background-color:#eef2f9;
+}
+.sale-Paper{
+    margin: 0 10px 10px 0;
+    box-shadow: 8px 8px rgb(221, 226, 228);
+    
+}
+.sale-head{
+    background-color: rgb(198, 216, 231);
+    
+
+}
+.sale-row{
+    font-size: 20%;
+    font-weight: bolder;
+    font-family: sans-serif;
+}
+.sale-cell{
+    font-weight: bolder;
+}

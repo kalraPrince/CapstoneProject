@@ -1,7 +1,9 @@
 import React from "react";
 import { useState } from "react";
 import { Link } from "react-router-dom";
- import '../../Styles/Register.css'
+import '../../Styles/Register.css'
+ import { ToastContainer, toast } from 'react-toastify';
+  import 'react-toastify/dist/ReactToastify.css';
 const Register = () => {
 
     const [username, setUsername] = useState('')
@@ -76,6 +78,9 @@ const Register = () => {
 
     }
 
+    const handleRegister = () => {
+        toast.success('register successfully', { autoClose: 1200 })
+    }
 
     return (
 
@@ -102,7 +107,7 @@ const Register = () => {
                                 <option>User</option>
                             </select>
                             <Link to='/'><p className="register-a"> Forget password ?</p></Link>
-                            <button className="register-btn">Register</button>
+                            <button className="register-btn" onClick={handleRegister}>Register</button>
                             <br />
                             <Link to='/'><p className="register-b">Already have an account ? Login</p></Link>
 
@@ -110,6 +115,7 @@ const Register = () => {
                     </div>
                 </div>
             </div>
+            <ToastContainer/>
         </section>
     )
 }

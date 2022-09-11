@@ -6,9 +6,9 @@ items:[],
 loading:true
 }
 
-export const ProductFetch=createAsyncThunk('product/ProductFetch',async()=>{
+export const ProductFetch=createAsyncThunk('product/ProductFetch',async(term)=>{
     try{
-        const result= await axios.get('http://localhost:3001/products')
+        const result= await axios.get(`http://localhost:3001/products?q=${term}`)
         return result.data
     }
     catch(err)

@@ -1,0 +1,21 @@
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+  .title__line {
+    width: 20%;
+    height: 0.09px;
+    
+  }
+
+
+  .title__heading {
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    font-weight: 500;
+    
+  }

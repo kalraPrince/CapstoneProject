@@ -1,0 +1,45 @@
+/* @import url('http://fonts.cdnfonts.com/css/whitney-2');
+.px-3{
+  font-family: 'Whitney Semibold', sans-serif;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  font-size: 1.1em;
+}
+.last{
+  font-family: 'Whitney Semibold', sans-serif;
+  margin-left: 65px;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  font-size: 1.1em;
+}
+
+ .class1{
+    margin-left:0px;
+ }
+  .text{
+    color: black;
+    font-family: 'Signika Negative', sans-serif;
+  }
+
+ .products{
+  color: black;
+  font-family: 'Signika Negative', sans-serif;
+  margin-left: 120px;
+ }
+  
+@media (max-width:376px){
+  .navbar{
+   background-color: white;
+   position: fixed;
+   display:flex;
+   position: relative;
+   justify-content:space-between;
+   padding-top: 2vw;
+   box-sizing: border-box;      
+   width:100%;
+  }}
+
+
+
+
+   */
