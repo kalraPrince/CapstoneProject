@@ -5,8 +5,9 @@ import { ProductFetch } from '../../Store/ProductSlice';
 import Box from '@mui/material/Box';
 import Rating from '@mui/material/Rating';
 import Typography from '@mui/material/Typography';
+import {RiHeart3Fill} from 'react-icons/ri';
 import '../../Styles/product.css'
-
+import { addToWish } from '../../Store/WishListSlice';
 const Dinning = () => {
     const { items } = useSelector((state) => state.product);
     const [value, setValue] = React.useState(4);
@@ -17,6 +18,10 @@ const Dinning = () => {
     }, []);
 
     const DinningProducts = items.filter((product) => product.category === 'dinning');
+
+    const handleAddWishlist = (item) => {
+        dispatch(addToWish(item));
+      };
 
     return (
         <div>
@@ -44,7 +49,9 @@ const Dinning = () => {
                                         {/* <p className='fieldsets'>{data.rating} ★</p> */}
                                         <p className="price">₹{item.price}</p>
                                         <p className='offer'>{item.discountPercentage}% OFF</p>
+                                        {/* <button>Wishlist</button> */}
                                         {/* <p>{data.rating} ★</p> */}
+                                        <RiHeart3Fill onClick={()=>handleAddWishlist(item)}></RiHeart3Fill>
                                     </div>
                                 </div>
                             </div>

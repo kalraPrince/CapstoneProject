@@ -1,15 +1,25 @@
-import { useSelector } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { getAllProduct } from "../../Store/ProductSlice";
+import { ProductFetch } from "../../Store/ProductSlice";
 import { Link } from "react-router-dom";
 import Slider from "react-slick";
 import ProductList from "./productList";
-
+import { useEffect } from "react";
+import { Dispatch } from "react";
+import hourglassGif from "../../assets/images/Hourglass.gif"
 
 import '../../Styles/product.css'
+import { Helmet } from "react-helmet";
 
 const Product = () => {
+const items = useSelector(getAllProduct);
+const {loading}=useSelector((state)=>state.product)
+const dispatch=useDispatch()
 
-    const items = useSelector(getAllProduct);
+    const protext=""
+    useEffect(() => {
+        dispatch(ProductFetch(protext));
+    }, []);
     let renderProducts = ""
     let renderSofa = ""
     let renderDecor = ""
@@ -90,6 +100,10 @@ const Product = () => {
 
     return (
         <div>
+            <Helmet><title>Products</title></Helmet>
+           { loading ? 
+                    <img src={hourglassGif} alt='loading' />
+          :
             <div className="product-wrapper">
                 <div className="product-list">
                     <h2>Our Products</h2>
@@ -131,6 +145,7 @@ const Product = () => {
                     </div>
                 </div>
             </div>
+}
         </div>
     );
 }

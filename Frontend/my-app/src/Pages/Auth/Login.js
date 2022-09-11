@@ -2,6 +2,8 @@ import React from "react";
 import { useState } from "react";
 import {Link, useNavigate} from 'react-router-dom'
 import '../../Styles/Login.css'
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 const Login=()=>{
     
     const navigate=useNavigate()
@@ -31,6 +33,7 @@ const Login=()=>{
          }
          else{
              setEmailerr('Please Enter the Email !')
+             toast.error('Empty Email Field!', {autoClose:1200})
          }
         }
         if(key==='password'){
@@ -40,10 +43,15 @@ const Login=()=>{
          }
          else{
              setPassworderr('Please Enter the Password !')
+             toast.error('Empty Password Field!', {autoClose:1200})
          }
         }
        
-     }
+    }
+    
+    const loginHandle = () => {
+        toast.success('login successfully!',{ autoClose: 1200 })
+    }
 
 
     return(
@@ -66,7 +74,7 @@ const Login=()=>{
                                 <option>User</option>
                             </select>
                             <Link to='/'><p className="login-a"> Forget password ?</p></Link>
-                            <button className="login-btn">Login</button>
+                            <button className="login-btn" onClick={loginHandle()}>Login</button>
                             <br />
                             <Link to='/Register'><p className="login-b">Don't have an Account? Sign Up</p></Link>
 
@@ -74,6 +82,7 @@ const Login=()=>{
                     </div>
                 </div>
             </div>
+            <ToastContainer/>
         </section>
          
          

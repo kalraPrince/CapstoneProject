@@ -1,37 +1,41 @@
+import React from 'react';
+import FacebookIcon from '@mui/icons-material/Facebook';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import TwitterIcon from '@mui/icons-material/Twitter';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import LocationOnIcon from '@mui/icons-material/LocationOn';
+import PhoneIcon from '@mui/icons-material/Phone';
+import MailIcon from '@mui/icons-material/Mail';
+import "../Styles/Footer.css"
+import {Link } from 'react-router-dom'
 
-  import FacebookIcon from '@mui/icons-material/Facebook';
-  import InstagramIcon from '@mui/icons-material/Instagram';
-  import TwitterIcon from '@mui/icons-material/Twitter';
-  import LinkedInIcon from '@mui/icons-material/LinkedIn';
-  import LocationOnIcon from '@mui/icons-material/LocationOn';
-  import PhoneIcon from '@mui/icons-material/Phone';
-  import MailIcon from '@mui/icons-material/Mail';
- import "../Styles/Footer.css"
-
-  const Footer=()=>{
-    return(
+const Footer=()=>{
+  return(
     <div className="Container">
      <div className="left">
       <h1>DecorHome</h1>
       <p className='desc'>
-      There are many variations of passages of Lorem Ipsum available, but
-      the majority have suffered alteration in some form, by injected
-      humour, or randomised words which don’t look even slightly believable.
+        There are many variations of passages of Lorem Ipsum available, but
+        the majority have suffered alteration in some form, by injected
+        humour, or randomised words which don’t look even slightly believable.
       </p>
       <div className='socialContainer'>
         <div style={{backgroundColor: "#3B5999"}} className='socialIcon'>
-        <FacebookIcon></FacebookIcon>
+        <Link to="https://www.facebook.com/login/"><FacebookIcon/></Link>
         </div>
+          
         <div style={{backgroundColor: "#E4405F"}} className='socialIcon'>
         <InstagramIcon></InstagramIcon>
         </div>
+          
         <div style={{backgroundColor: "#55ACEE"}} className='socialIcon'>
         <TwitterIcon></TwitterIcon>
         </div>
+          
         <div style={{backgroundColor: "#3B5999"}} className='socialIcon'>
         <LinkedInIcon></LinkedInIcon>
         </div>
-        </div>
+      </div>
      </div>
      <div className='center'>
      

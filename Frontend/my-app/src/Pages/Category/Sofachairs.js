@@ -5,7 +5,9 @@ import { ProductFetch } from '../../Store/ProductSlice';
 import Box from '@mui/material/Box';
 import Rating from '@mui/material/Rating';
 import Typography from '@mui/material/Typography';
+import {RiHeart3Fill} from 'react-icons/ri';
 import '../../Styles/product.css'
+import { addToWish } from '../../Store/WishListSlice';
 
 const Sofachairs = () => {
     const { items } = useSelector((state) => state.product);
@@ -13,13 +15,18 @@ const Sofachairs = () => {
     const dispatch = useDispatch();
 
     useEffect(() => {
-        dispatch(ProductFetch());
+        dispatch(ProductFetch(value));
     }, []);
 
     const SofaProducts = items.filter((product) => product.category === 'SofaChairs');
 
+    const handleAddWishlist = (item) => {
+        dispatch(addToWish(item));
+      };
+
     return (
         <div>
+            {console.log("kdata",SofaProducts)}
             <h2 className='category'>Sofa Sets</h2>
             <div className='container'>
             {
@@ -27,7 +34,7 @@ const Sofachairs = () => {
                     <div className="card-item">
                         <div className="card-inner">
                             <div className="card-top">
-                                <img className="card-img" src={item.images} />
+                                <img className="card-img" src={item.images} alt='img-card'/>
                             </div>
                             <div className="card-bottom">
                                 <div className="card-info">
@@ -45,6 +52,7 @@ const Sofachairs = () => {
                                     <p className="price">₹{item.price}</p>
                                     <p className='offer'>{item.discountPercentage}% OFF</p>
                                     {/* <p>{data.rating} ★</p> */}
+                                    <RiHeart3Fill onClick={()=>handleAddWishlist(item)}></RiHeart3Fill>
                                 </div>
                              </div>
                         </div>

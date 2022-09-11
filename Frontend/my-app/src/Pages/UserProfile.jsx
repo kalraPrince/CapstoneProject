@@ -2,7 +2,8 @@ import React, { Fragment } from 'react';
 import '../Styles/UserProfile.css';
 import Popup from 'reactjs-popup';
 import 'reactjs-popup/dist/index.css';
-import {toast, ToastContainer} from 'react-toastify'
+import { toast, ToastContainer } from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css';
 import { Helmet } from 'react-helmet';
 import { Link } from 'react-router-dom';
 import backGif from '../assets/images/icons8-back.gif';
@@ -20,15 +21,20 @@ const UserProfile = () => {
         password: 'abc@gmail.com'
     }
 
-    const notify = (e) => {
-        e.preventDefault();
-        toast("Password Updated Successfully!");
+    const notify = () => {
+        toast.success("Password Updated Successfully!", {
+            autoClose:1200
+        });
+    }
+
+    const editHandle = () => {
+        toast.success("Profile Updated Successfully!", {autoClose:1200})
     }
 
     return (
     <Fragment>
         <Helmet>
-            <title>User Profile</title>
+            <title>Admin Profile</title>
         </Helmet>  
 
         {/* Header Section */}
@@ -47,9 +53,49 @@ const UserProfile = () => {
             
         <div className="profileContainer">
             <div>
-                <h1>User Profile</h1>
-                <img src={user.userImage} alt={user.username} />
-                <Link to="/update/user">Edit Profile</Link>
+                <h1>Admin Profile</h1>
+                    <img src={user.userImage} alt={user.username} />
+
+         {/* Popup for Editing Password            */}
+                 <Popup
+                    trigger={<button className='change-passwordbtn'>Edit Profile</button>} position="top center"      
+                >
+                    <form
+                        className="updatePasswordForm"
+                    >
+                        <h5 className='mx-sm-3 my-sm-3  popup-heading'>Edit Profile</h5>
+                        <input
+                            className='form-control mt-2 mx-sm-3 user-profile-inp'
+                            type="text"
+                            placeholder="Enter Username"
+                            required
+                        />
+
+                        <input
+                            className='form-control mt-2 mx-sm-3 user-profile-inp'
+                            type="text"
+                            placeholder="Enter Mobile Number"
+                            required                    
+                        />
+                        
+                        <input
+                            className='form-control mt-2 mx-sm-3 user-profile-inp'
+                            type="text"
+                            placeholder="Enter PinCode"
+                            required
+                        />
+                        
+                        <button
+                        type="submit"
+                        value="Change"
+                        className="updatePasswordBtn btn btn-danger mt-1 mx-sm-3"
+                        onClick={editHandle()}                      
+                        >
+                            Edit
+                        </button>    
+                    </form>
+                                     
+                </Popup>
             </div>
                     
             <div>
@@ -83,23 +129,23 @@ const UserProfile = () => {
                     <form
                         className="updatePasswordForm"
                     >
-                        <h5 className='mx-sm-3 my-sm-3 text-lg popup-heading'>Update Password</h5>
+                        <h5 className='mx-sm-3 my-sm-3  popup-heading'>Update Password</h5>
                         <input
-                            className='form-control mt-2 mx-sm-3'
+                            className='form-control mt-2 mx-sm-3 user-profile-inp'
                             type="password"
                             placeholder="Old Password"
                             required
                         />
 
                         <input
-                            className='form-control mt-2 mx-sm-3'
+                            className='form-control mt-2 mx-sm-3 user-profile-inp'
                             type="password"
                             placeholder="New Password"
                             required                    
                         />
                         
                         <input
-                            className='form-control mt-2 mx-sm-3'
+                            className='form-control mt-2 mx-sm-3 user-profile-inp'
                             type="password"
                             placeholder="Confirm Password"
                             required
@@ -108,19 +154,20 @@ const UserProfile = () => {
                         <button
                         type="submit"
                         value="Change"
-                        className="updatePasswordBtn btn btn-danger btn-lg mt-2 mx-sm-3"
+                        className="updatePasswordBtn btn btn-danger mt-1 mx-sm-3"
                         onClick={notify}                      
                         >
                             Update
                         </button>    
                     </form>
-                    <ToastContainer/>                  
+                                     
                 </Popup>
                             
             {/* // <Link to="/password/change">Change Password</Link> */}
-            </div>
+                    </div>
         </div>
-    </div>      
+            </div>    
+    <ToastContainer/>        
     </Fragment>
   )
 }

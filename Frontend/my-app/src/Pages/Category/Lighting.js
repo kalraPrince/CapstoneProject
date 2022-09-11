@@ -5,7 +5,9 @@ import { ProductFetch } from '../../Store/ProductSlice';
 import Box from '@mui/material/Box';
 import Rating from '@mui/material/Rating';
 import Typography from '@mui/material/Typography';
+import {RiHeart3Fill} from 'react-icons/ri';
 import '../../Styles/product.css'
+import { addToWish } from '../../Store/WishListSlice';
 
 const Light = () => {
     const { items } = useSelector((state) => state.product);
@@ -17,6 +19,10 @@ const Light = () => {
     }, []);
 
     const LightProducts = items.filter((product) => product.category === 'lighting');
+
+    const handleAddWishlist = (item) => {
+        dispatch(addToWish(item));
+      };
 
     return (
         <div>
@@ -45,6 +51,7 @@ const Light = () => {
                                         <p className="price">₹{item.price}</p>
                                         <p className='offer'>{item.discountPercentage}% OFF</p>
                                         {/* <p>{data.rating} ★</p> */}
+                                        <RiHeart3Fill onClick={()=>handleAddWishlist(item)}></RiHeart3Fill>
                                     </div>
                                 </div>
                             </div>

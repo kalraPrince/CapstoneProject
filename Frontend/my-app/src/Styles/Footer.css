@@ -1,5 +1,8 @@
 .Container {
     display: flex;
+    background-color:rgb(58, 55, 55);
+    margin-top: 5%;
+    color: white;
 }
 
 .left{
